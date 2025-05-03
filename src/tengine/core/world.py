@@ -1,5 +1,6 @@
 from tengine.core.component import Component
 from tengine.core.entity import Entity
+from tengine.core.plugin import Plugin
 from tengine.core.system import System
 
 import time
@@ -31,6 +32,15 @@ class World:
             system (System): A system to be added to the world.
         """
         self.systems.append(system)
+        
+    def add_plugin(self, plugin: Plugin):
+        """
+        Adds a plugin to the world.
+
+        Args:
+            plugin (Plugin): A plugin to be added to the world.
+        """
+        self = plugin.load(self)
     def spawn_entity(self, *components: Component):
         """
         Spawns a new entity with the given components.
