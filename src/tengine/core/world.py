@@ -4,10 +4,9 @@ from tengine.core.system import System
 
 import time
 
+from tengine.core.worldinfo import WorldInfo
 
-class WorldInfo:
-    def __init__(self, dt):
-        self.dt = dt
+
 
 class World:
     def __init__(self):
@@ -15,7 +14,7 @@ class World:
         self.systems: list[System] = []
     def add_system(self, system: System):
         self.systems.append(system)
-    def spawn_entity(self, components: list[Component]):
+    def spawn_entity(self, *components: Component):
         entity = Entity(components)
         self.entities.append(entity)
         return entity.id
@@ -25,9 +24,9 @@ class World:
             system.update(self.entities, world_info)
     
     def mainloop(self):
-        t: float
+        t: float = time.time()
         while True:
-            dt = t - time.time()
+            dt = time.time() - t
             t = time.time()
             world_info = WorldInfo(dt)
             self.update(world_info)
