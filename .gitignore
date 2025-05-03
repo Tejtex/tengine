@@ -4,3 +4,5 @@
 /docs/_source/
 /docs/_templates/
 .DS_Store
+.github/
+.gitignore

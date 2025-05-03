@@ -1,4 +1,4 @@
-from tengine.core.component import Component
+from tengine.core.component import Bundle, Component
 from tengine.core.entity import Entity
 from tengine.core.plugin import Plugin
 from tengine.core.system import System
@@ -41,7 +41,7 @@ class World:
             plugin (Plugin): A plugin to be added to the world.
         """
         self = plugin.load(self)
-    def spawn_entity(self, *components: Component):
+    def spawn_entity(self, *components: Component | Bundle):
         """
         Spawns a new entity with the given components.
 
@@ -51,7 +51,13 @@ class World:
         Returns:
             int: The ID of the spawned entity.
         """
-        entity = Entity(components)
+        end_components = []
+        for component in components:
+            if isinstance(component, Bundle):
+                end_components.extend(component.components)
+            else:
+                end_components.append(component)
+        entity = Entity(end_components)
         self.entities.append(entity)
         return entity.id
     

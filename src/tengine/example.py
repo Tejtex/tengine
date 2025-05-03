@@ -1,4 +1,4 @@
-from tengine.core.component import Component
+from tengine.core.component import Bundle, Component
 from tengine.core.system import System
 from tengine.core.world import World
 
@@ -25,6 +25,7 @@ class PrintSystem(System):
             if entity.has_component(Position):
                 pos = entity.get_component(Position)
                 print(pos.x, pos.y)
+
 
 world = World()
 world.spawn_entity(Velocity(1, 1), Position(0, 0))
