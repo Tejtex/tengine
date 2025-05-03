@@ -1,1 +1,5 @@
 *.pyc
+# Ignore build output
+/docs/_build/
+/docs/_source/
+/docs/_templates/

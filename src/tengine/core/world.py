@@ -9,21 +9,56 @@ from tengine.core.worldinfo import WorldInfo
 
 
 class World:
+    """
+    World represents the simulation environment containing entities and systems.
+    
+    Attributes:
+        entities (list): A list of entities in the world.
+        systems (list): A list of systems that are responsible for updating entities.
+    """
+
     def __init__(self):
+        """
+        Initializes an empty world with no entities or systems.
+        """
         self.entities: list[Entity] = []
         self.systems: list[System] = []
     def add_system(self, system: System):
+        """
+        Adds a system to the world.
+
+        Args:
+            system (System): A system to be added to the world.
+        """
         self.systems.append(system)
     def spawn_entity(self, *components: Component):
+        """
+        Spawns a new entity with the given components.
+
+        Args:
+            components (Component): Components to associate with the entity.
+
+        Returns:
+            int: The ID of the spawned entity.
+        """
         entity = Entity(components)
         self.entities.append(entity)
         return entity.id
     
     def update(self,world_info: WorldInfo):
+        """
+        Runs all the systems in the world, updating the entities.
+        Args:
+            world_info (WorldInfo): Information about the current state of the world.
+        """
         for system in self.systems:
             system.update(self.entities, world_info)
     
     def mainloop(self):
+        """
+        Main loop of the world. This method runs indefinitely, updating the world at each iteration.
+        It calculates the time delta (dt) between each iteration and passes it to the systems.
+        """
         t: float = time.time()
         while True:
             dt = time.time() - t
