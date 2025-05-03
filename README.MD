@@ -18,7 +18,7 @@ Currently to install tengine you have to download this repo and use the code.
 
 - Import the library and start building your ECS-based application
 - Look at the src/example.py for an example app
-- Refer to the [documentation](https://github.com/Tejtex/tengine/wiki) for detailed examples and API usage.
+- Refer to the [documentation](https://tejtex.github.io/tengine/) for detailed examples and API usage.
 
 ## Contributing
 
