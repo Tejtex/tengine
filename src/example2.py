@@ -8,6 +8,7 @@ from tengine.renderer.renderer import RenderSystem
 from tengine.renderer.sprite import Sprite, SpriteBundle
 from tengine.renderer.window import Window
 import math
+from tengine.common.defaultplugins import DefaultPlugins
 
 class Velocity(Component):
     def __init__(self, dx, dy):
@@ -25,10 +26,7 @@ class VelocitySystem(System):
         return False
 world = World()
 world.spawn_entity(Velocity(.1, .1), SpriteBundle(pyglet.image.create(100, 100, pyglet.image.CheckerImagePattern())))
-world.add_resource(Window(800, 600, "Test Window"))
-world.add_resource(Time())
-world.add_system(TimeSystem())
-world.add_system(RenderSystem())
+world.add_plugin(DefaultPlugins())
 world.add_system(VelocitySystem())
 world.mainloop()
 

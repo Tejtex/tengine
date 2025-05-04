@@ -1,0 +1,786 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Time",
+        "importPath": "tengine.common.time",
+        "description": "tengine.common.time",
+        "isExtraImport": true,
+        "detail": "tengine.common.time",
+        "documentation": {}
+    },
+    {
+        "label": "TimeSystem",
+        "importPath": "tengine.common.time",
+        "description": "tengine.common.time",
+        "isExtraImport": true,
+        "detail": "tengine.common.time",
+        "documentation": {}
+    },
+    {
+        "label": "Time",
+        "importPath": "tengine.common.time",
+        "description": "tengine.common.time",
+        "isExtraImport": true,
+        "detail": "tengine.common.time",
+        "documentation": {}
+    },
+    {
+        "label": "TimeSystem",
+        "importPath": "tengine.common.time",
+        "description": "tengine.common.time",
+        "isExtraImport": true,
+        "detail": "tengine.common.time",
+        "documentation": {}
+    },
+    {
+        "label": "Plugin",
+        "importPath": "tengine.core.plugin",
+        "description": "tengine.core.plugin",
+        "isExtraImport": true,
+        "detail": "tengine.core.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "Plugin",
+        "importPath": "tengine.core.plugin",
+        "description": "tengine.core.plugin",
+        "isExtraImport": true,
+        "detail": "tengine.core.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "Plugin",
+        "importPath": "tengine.core.plugin",
+        "description": "tengine.core.plugin",
+        "isExtraImport": true,
+        "detail": "tengine.core.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "Window",
+        "importPath": "tengine.renderer.window",
+        "description": "tengine.renderer.window",
+        "isExtraImport": true,
+        "detail": "tengine.renderer.window",
+        "documentation": {}
+    },
+    {
+        "label": "Window",
+        "importPath": "tengine.renderer.window",
+        "description": "tengine.renderer.window",
+        "isExtraImport": true,
+        "detail": "tengine.renderer.window",
+        "documentation": {}
+    },
+    {
+        "label": "Window",
+        "importPath": "tengine.renderer.window",
+        "description": "tengine.renderer.window",
+        "isExtraImport": true,
+        "detail": "tengine.renderer.window",
+        "documentation": {}
+    },
+    {
+        "label": "Window",
+        "importPath": "tengine.renderer.window",
+        "description": "tengine.renderer.window",
+        "isExtraImport": true,
+        "detail": "tengine.renderer.window",
+        "documentation": {}
+    },
+    {
+        "label": "RenderSystem",
+        "importPath": "tengine.renderer.renderer",
+        "description": "tengine.renderer.renderer",
+        "isExtraImport": true,
+        "detail": "tengine.renderer.renderer",
+        "documentation": {}
+    },
+    {
+        "label": "RenderSystem",
+        "importPath": "tengine.renderer.renderer",
+        "description": "tengine.renderer.renderer",
+        "isExtraImport": true,
+        "detail": "tengine.renderer.renderer",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "tengine.core.resource",
+        "description": "tengine.core.resource",
+        "isExtraImport": true,
+        "detail": "tengine.core.resource",
+        "documentation": {}
+    },
+    {
+        "label": "Resources",
+        "importPath": "tengine.core.resource",
+        "description": "tengine.core.resource",
+        "isExtraImport": true,
+        "detail": "tengine.core.resource",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "tengine.core.resource",
+        "description": "tengine.core.resource",
+        "isExtraImport": true,
+        "detail": "tengine.core.resource",
+        "documentation": {}
+    },
+    {
+        "label": "Resources",
+        "importPath": "tengine.core.resource",
+        "description": "tengine.core.resource",
+        "isExtraImport": true,
+        "detail": "tengine.core.resource",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "tengine.core.resource",
+        "description": "tengine.core.resource",
+        "isExtraImport": true,
+        "detail": "tengine.core.resource",
+        "documentation": {}
+    },
+    {
+        "label": "System",
+        "importPath": "tengine.core.system",
+        "description": "tengine.core.system",
+        "isExtraImport": true,
+        "detail": "tengine.core.system",
+        "documentation": {}
+    },
+    {
+        "label": "System",
+        "importPath": "tengine.core.system",
+        "description": "tengine.core.system",
+        "isExtraImport": true,
+        "detail": "tengine.core.system",
+        "documentation": {}
+    },
+    {
+        "label": "System",
+        "importPath": "tengine.core.system",
+        "description": "tengine.core.system",
+        "isExtraImport": true,
+        "detail": "tengine.core.system",
+        "documentation": {}
+    },
+    {
+        "label": "System",
+        "importPath": "tengine.core.system",
+        "description": "tengine.core.system",
+        "isExtraImport": true,
+        "detail": "tengine.core.system",
+        "documentation": {}
+    },
+    {
+        "label": "System",
+        "importPath": "tengine.core.system",
+        "description": "tengine.core.system",
+        "isExtraImport": true,
+        "detail": "tengine.core.system",
+        "documentation": {}
+    },
+    {
+        "label": "System",
+        "importPath": "tengine.core.system",
+        "description": "tengine.core.system",
+        "isExtraImport": true,
+        "detail": "tengine.core.system",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Bundle",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Bundle",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Bundle",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Bundle",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Bundle",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "importPath": "tengine.core.component",
+        "description": "tengine.core.component",
+        "isExtraImport": true,
+        "detail": "tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Type",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "importPath": "tengine.core.entity",
+        "description": "tengine.core.entity",
+        "isExtraImport": true,
+        "detail": "tengine.core.entity",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "importPath": "tengine.core.entity",
+        "description": "tengine.core.entity",
+        "isExtraImport": true,
+        "detail": "tengine.core.entity",
+        "documentation": {}
+    },
+    {
+        "label": "World",
+        "importPath": "tengine.core.world",
+        "description": "tengine.core.world",
+        "isExtraImport": true,
+        "detail": "tengine.core.world",
+        "documentation": {}
+    },
+    {
+        "label": "World",
+        "importPath": "tengine.core.world",
+        "description": "tengine.core.world",
+        "isExtraImport": true,
+        "detail": "tengine.core.world",
+        "documentation": {}
+    },
+    {
+        "label": "World",
+        "importPath": "tengine.core.world",
+        "description": "tengine.core.world",
+        "isExtraImport": true,
+        "detail": "tengine.core.world",
+        "documentation": {}
+    },
+    {
+        "label": "Transform",
+        "importPath": "tengine.common.transform",
+        "description": "tengine.common.transform",
+        "isExtraImport": true,
+        "detail": "tengine.common.transform",
+        "documentation": {}
+    },
+    {
+        "label": "Transform",
+        "importPath": "tengine.common.transform",
+        "description": "tengine.common.transform",
+        "isExtraImport": true,
+        "detail": "tengine.common.transform",
+        "documentation": {}
+    },
+    {
+        "label": "Transform",
+        "importPath": "tengine.common.transform",
+        "description": "tengine.common.transform",
+        "isExtraImport": true,
+        "detail": "tengine.common.transform",
+        "documentation": {}
+    },
+    {
+        "label": "Sprite",
+        "importPath": "tengine.renderer.sprite",
+        "description": "tengine.renderer.sprite",
+        "isExtraImport": true,
+        "detail": "tengine.renderer.sprite",
+        "documentation": {}
+    },
+    {
+        "label": "Sprite",
+        "importPath": "tengine.renderer.sprite",
+        "description": "tengine.renderer.sprite",
+        "isExtraImport": true,
+        "detail": "tengine.renderer.sprite",
+        "documentation": {}
+    },
+    {
+        "label": "SpriteBundle",
+        "importPath": "tengine.renderer.sprite",
+        "description": "tengine.renderer.sprite",
+        "isExtraImport": true,
+        "detail": "tengine.renderer.sprite",
+        "documentation": {}
+    },
+    {
+        "label": "pyglet",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyglet",
+        "description": "pyglet",
+        "detail": "pyglet",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultPlugins",
+        "importPath": "tengine.common.defaultplugins",
+        "description": "tengine.common.defaultplugins",
+        "isExtraImport": true,
+        "detail": "tengine.common.defaultplugins",
+        "documentation": {}
+    },
+    {
+        "label": "project",
+        "kind": 5,
+        "importPath": "docs.conf",
+        "description": "docs.conf",
+        "peekOfCode": "project = 'tenigne'\ncopyright = '2025, tejtex'\nauthor = 'tejtex'\n# -- General configuration ---------------------------------------------------\n# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration\nextensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon', 'sphinx.ext.viewcode']\ntemplates_path = ['_templates']\nexclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']\n# -- Options for HTML output -------------------------------------------------\n# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output",
+        "detail": "docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "copyright",
+        "kind": 5,
+        "importPath": "docs.conf",
+        "description": "docs.conf",
+        "peekOfCode": "copyright = '2025, tejtex'\nauthor = 'tejtex'\n# -- General configuration ---------------------------------------------------\n# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration\nextensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon', 'sphinx.ext.viewcode']\ntemplates_path = ['_templates']\nexclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']\n# -- Options for HTML output -------------------------------------------------\n# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output\nhtml_theme = 'alabaster'",
+        "detail": "docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "author",
+        "kind": 5,
+        "importPath": "docs.conf",
+        "description": "docs.conf",
+        "peekOfCode": "author = 'tejtex'\n# -- General configuration ---------------------------------------------------\n# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration\nextensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon', 'sphinx.ext.viewcode']\ntemplates_path = ['_templates']\nexclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']\n# -- Options for HTML output -------------------------------------------------\n# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output\nhtml_theme = 'alabaster'\nhtml_static_path = ['_static']",
+        "detail": "docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "extensions",
+        "kind": 5,
+        "importPath": "docs.conf",
+        "description": "docs.conf",
+        "peekOfCode": "extensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon', 'sphinx.ext.viewcode']\ntemplates_path = ['_templates']\nexclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']\n# -- Options for HTML output -------------------------------------------------\n# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output\nhtml_theme = 'alabaster'\nhtml_static_path = ['_static']",
+        "detail": "docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "templates_path",
+        "kind": 5,
+        "importPath": "docs.conf",
+        "description": "docs.conf",
+        "peekOfCode": "templates_path = ['_templates']\nexclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']\n# -- Options for HTML output -------------------------------------------------\n# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output\nhtml_theme = 'alabaster'\nhtml_static_path = ['_static']",
+        "detail": "docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "exclude_patterns",
+        "kind": 5,
+        "importPath": "docs.conf",
+        "description": "docs.conf",
+        "peekOfCode": "exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']\n# -- Options for HTML output -------------------------------------------------\n# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output\nhtml_theme = 'alabaster'\nhtml_static_path = ['_static']",
+        "detail": "docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_theme",
+        "kind": 5,
+        "importPath": "docs.conf",
+        "description": "docs.conf",
+        "peekOfCode": "html_theme = 'alabaster'\nhtml_static_path = ['_static']",
+        "detail": "docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "html_static_path",
+        "kind": 5,
+        "importPath": "docs.conf",
+        "description": "docs.conf",
+        "peekOfCode": "html_static_path = ['_static']",
+        "detail": "docs.conf",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultPlugins",
+        "kind": 6,
+        "importPath": "src.tengine.common.defaultplugins",
+        "description": "src.tengine.common.defaultplugins",
+        "peekOfCode": "class DefaultPlugins(Plugin):\n    \"\"\"\n    Default plugins for Tengine.\n    \"\"\"\n    def __init__(self, width=800, height=600, title=\"Tengine\"):\n        \"\"\"\n        Initialize the default plugins.\n        Args:\n            width (int): The width of the window.\n            height (int): The height of the window.",
+        "detail": "src.tengine.common.defaultplugins",
+        "documentation": {}
+    },
+    {
+        "label": "Time",
+        "kind": 6,
+        "importPath": "src.tengine.common.time",
+        "description": "src.tengine.common.time",
+        "peekOfCode": "class Time(Resource):\n    def __init__(self):\n        self.time = 0.0\n        self.dt = 0\n        self.start_time = t.time()\nclass TimeSystem(System):\n    def __init__(self):\n        self.last_time = 0.0\n    def update(self, entities, resources) -> bool:\n        time = resources.get_resource(Time)",
+        "detail": "src.tengine.common.time",
+        "documentation": {}
+    },
+    {
+        "label": "TimeSystem",
+        "kind": 6,
+        "importPath": "src.tengine.common.time",
+        "description": "src.tengine.common.time",
+        "peekOfCode": "class TimeSystem(System):\n    def __init__(self):\n        self.last_time = 0.0\n    def update(self, entities, resources) -> bool:\n        time = resources.get_resource(Time)\n        time.time = t.time() - time.start_time\n        current_time = time.time\n        time.dt = current_time - self.last_time\n        self.last_time = current_time\n        return False",
+        "detail": "src.tengine.common.time",
+        "documentation": {}
+    },
+    {
+        "label": "Transform",
+        "kind": 6,
+        "importPath": "src.tengine.common.transform",
+        "description": "src.tengine.common.transform",
+        "peekOfCode": "class Transform(Component):\n    \"\"\"\n    The Transform component represents the position, rotation, and scale of an entity in the world.\n    \"\"\"\n    def __init__(self, position: tuple[float, float] = (0, 0), rotation: float = 0.0, scale: tuple[float, float] = (1.0, 1.0)):\n        \"\"\"\n        Initializes a Transform component with position, rotation, and scale.\n        Args:\n            position (tuple[float, float]): The position of the entity in the world.\n            rotation (float): The rotation of the entity in degrees.",
+        "detail": "src.tengine.common.transform",
+        "documentation": {}
+    },
+    {
+        "label": "Component",
+        "kind": 6,
+        "importPath": "src.tengine.core.component",
+        "description": "src.tengine.core.component",
+        "peekOfCode": "class Component:\n    \"\"\"\n    Base class for all components in the simulation. Components are used to define the properties\n    and behaviors of entities. Each component should inherit from this class.\n    \"\"\"\n    pass\nclass Bundle:\n    \"\"\"\n    A bundle is a collection of components that can be added to an entity. Bundles are used to\n    group related components together for easier management and organization.",
+        "detail": "src.tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Bundle",
+        "kind": 6,
+        "importPath": "src.tengine.core.component",
+        "description": "src.tengine.core.component",
+        "peekOfCode": "class Bundle:\n    \"\"\"\n    A bundle is a collection of components that can be added to an entity. Bundles are used to\n    group related components together for easier management and organization.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initialize the bundle with an empty list of components. This is a abstract class and should not be instantiated directly.\n        \"\"\"\n        self.components = []",
+        "detail": "src.tengine.core.component",
+        "documentation": {}
+    },
+    {
+        "label": "Entity",
+        "kind": 6,
+        "importPath": "src.tengine.core.entity",
+        "description": "src.tengine.core.entity",
+        "peekOfCode": "class Entity:\n    \"\"\"\n    Entity represents a single object in the simulation world. It can have multiple components\n    that define its behavior and properties.\n    Attributes:\n        id (int): Unique identifier for the entity.\n        components (list): A list of components associated with the entity.\n    \"\"\"\n    def __init__(self, components: list[Component]):\n        \"\"\"",
+        "detail": "src.tengine.core.entity",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "src.tengine.core.entity",
+        "description": "src.tengine.core.entity",
+        "peekOfCode": "T = TypeVar(\"T\", bound=\"Component\")\nU = TypeVar(\"U\", bound=\"Bundle\")\nclass Entity:\n    \"\"\"\n    Entity represents a single object in the simulation world. It can have multiple components\n    that define its behavior and properties.\n    Attributes:\n        id (int): Unique identifier for the entity.\n        components (list): A list of components associated with the entity.\n    \"\"\"",
+        "detail": "src.tengine.core.entity",
+        "documentation": {}
+    },
+    {
+        "label": "U",
+        "kind": 5,
+        "importPath": "src.tengine.core.entity",
+        "description": "src.tengine.core.entity",
+        "peekOfCode": "U = TypeVar(\"U\", bound=\"Bundle\")\nclass Entity:\n    \"\"\"\n    Entity represents a single object in the simulation world. It can have multiple components\n    that define its behavior and properties.\n    Attributes:\n        id (int): Unique identifier for the entity.\n        components (list): A list of components associated with the entity.\n    \"\"\"\n    def __init__(self, components: list[Component]):",
+        "detail": "src.tengine.core.entity",
+        "documentation": {}
+    },
+    {
+        "label": "Plugin",
+        "kind": 6,
+        "importPath": "src.tengine.core.plugin",
+        "description": "src.tengine.core.plugin",
+        "peekOfCode": "class Plugin:\n    \"\"\"\n    Base class for plugins that can be loaded into the world.\n    Plugins can modify the world by adding systems, components, or other functionality.\n    \"\"\"\n    @abstractmethod\n    def load(self, world: 'World') -> 'World':\n        \"\"\"\n        Load the plugin into the world.\n        Args:",
+        "detail": "src.tengine.core.plugin",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "kind": 6,
+        "importPath": "src.tengine.core.resource",
+        "description": "src.tengine.core.resource",
+        "peekOfCode": "class Resource:\n    \"\"\"\n    Resource is a global object that represents a single resource in the simulation world. It can be used to store and manage data that is shared across multiple entities or systems.\n    \"\"\"\n    def __init__(self, name: str, data: object):\n        \"\"\"\n        Initializes a resource with a name and data.\n        Args:\n            name (str): The name of the resource.\n            data (object): The data associated with the resource.",
+        "detail": "src.tengine.core.resource",
+        "documentation": {}
+    },
+    {
+        "label": "Resources",
+        "kind": 6,
+        "importPath": "src.tengine.core.resource",
+        "description": "src.tengine.core.resource",
+        "peekOfCode": "class Resources:\n    \"\"\"\n    Resources is a collection of resources that can be used to store and manage data that is shared across multiple entities or systems.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes an empty collection of resources.\n        \"\"\"\n        self.resources: list[Resource] = []\n    def add_resource(self, resource: Resource):",
+        "detail": "src.tengine.core.resource",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "src.tengine.core.resource",
+        "description": "src.tengine.core.resource",
+        "peekOfCode": "T = TypeVar(\"T\", bound=\"Resource\")\nclass Resources:\n    \"\"\"\n    Resources is a collection of resources that can be used to store and manage data that is shared across multiple entities or systems.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes an empty collection of resources.\n        \"\"\"\n        self.resources: list[Resource] = []",
+        "detail": "src.tengine.core.resource",
+        "documentation": {}
+    },
+    {
+        "label": "System",
+        "kind": 6,
+        "importPath": "src.tengine.core.system",
+        "description": "src.tengine.core.system",
+        "peekOfCode": "class System:\n    \"\"\"\n    System is an abstract base class that defines the interface for all systems in the simulation.\n    Each system is responsible for updating a specific aspect of the entities in the world.\n    \"\"\"\n    @abstractmethod\n    def update(self, entities: list[Entity], resources: Resources) -> bool:\n        \"\"\"\n        Updates the system with the given entities and world information.\n        Args:",
+        "detail": "src.tengine.core.system",
+        "documentation": {}
+    },
+    {
+        "label": "World",
+        "kind": 6,
+        "importPath": "src.tengine.core.world",
+        "description": "src.tengine.core.world",
+        "peekOfCode": "class World:\n    \"\"\"\n    World represents the simulation environment containing entities and systems.\n    Attributes:\n        entities (list): A list of entities in the world.\n        systems (list): A list of systems that are responsible for updating entities.\n    \"\"\"\n    def __init__(self):\n        \"\"\"\n        Initializes an empty world with no entities or systems.",
+        "detail": "src.tengine.core.world",
+        "documentation": {}
+    },
+    {
+        "label": "RenderSystem",
+        "kind": 6,
+        "importPath": "src.tengine.renderer.renderer",
+        "description": "src.tengine.renderer.renderer",
+        "peekOfCode": "class RenderSystem(System):\n    \"\"\"\n    RenderSystem is responsible for rendering entities with the Image component.\n    It uses the pyglet library to create a window and draw images on the screen.\n    \"\"\"\n    def update(self, entities, resources) -> bool:\n        if (not resources.has_resource(Window)):\n            return\n        window = resources.get_resource(Window)\n        window.window.dispatch_events()",
+        "detail": "src.tengine.renderer.renderer",
+        "documentation": {}
+    },
+    {
+        "label": "Sprite",
+        "kind": 6,
+        "importPath": "src.tengine.renderer.sprite",
+        "description": "src.tengine.renderer.sprite",
+        "peekOfCode": "class Sprite(Component):\n    def __init__(self, sprite: pyglet.sprite.Sprite):\n        \"\"\"\n        Initializes a Sprite component with a given sprite.\n        Args:\n            sprite (pyglet.sprite.Sprite): The sprite to be used for rendering.\n        \"\"\"\n        self.sprite = sprite\nclass SpriteBundle(Bundle):\n    def __init__(self, ",
+        "detail": "src.tengine.renderer.sprite",
+        "documentation": {}
+    },
+    {
+        "label": "SpriteBundle",
+        "kind": 6,
+        "importPath": "src.tengine.renderer.sprite",
+        "description": "src.tengine.renderer.sprite",
+        "peekOfCode": "class SpriteBundle(Bundle):\n    def __init__(self, \n                 image: pyglet.image.AbstractImage, \n                 position: tuple[float, float] = (0, 0), \n                 rotation: float = 0.0, \n                 scale: tuple[float, float] = (1.0, 1.0)\n                 ):\n        super().__init__()\n        self.components.append(Transform(position, rotation, scale))\n        sprite = pyglet.sprite.Sprite(image, position[0], position[1])",
+        "detail": "src.tengine.renderer.sprite",
+        "documentation": {}
+    },
+    {
+        "label": "Window",
+        "kind": 6,
+        "importPath": "src.tengine.renderer.window",
+        "description": "src.tengine.renderer.window",
+        "peekOfCode": "class Window(Resource):\n    \"\"\"\n    The Window class represents a window in the rendering system.\n    It is responsible for creating and managing the window where the graphics are displayed.\n    \"\"\"\n    def __init__(self, width: int, height: int, title: str):\n        \"\"\"\n        Initializes a Window instance with the given width, height, and title.\n        Args:\n            width (int): The width of the window.",
+        "detail": "src.tengine.renderer.window",
+        "documentation": {}
+    },
+    {
+        "label": "Position",
+        "kind": 6,
+        "importPath": "src.example",
+        "description": "src.example",
+        "peekOfCode": "class Position(Component):\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\nclass Velocity(Component):\n    def __init__(self, dx, dy):\n        self.dx =dx\n        self.dy = dy\nclass VelocitySystem(System):\n    def update(self, entities, world_info):",
+        "detail": "src.example",
+        "documentation": {}
+    },
+    {
+        "label": "Velocity",
+        "kind": 6,
+        "importPath": "src.example",
+        "description": "src.example",
+        "peekOfCode": "class Velocity(Component):\n    def __init__(self, dx, dy):\n        self.dx =dx\n        self.dy = dy\nclass VelocitySystem(System):\n    def update(self, entities, world_info):\n        for entity in entities:\n            if entity.has_component(Position) and entity.has_component(Velocity):\n                entity.get_component(Position).x += entity.get_component(Velocity).dx * world_info.dt\n                entity.get_component(Position).y += entity.get_component(Velocity).dy * world_info.dt",
+        "detail": "src.example",
+        "documentation": {}
+    },
+    {
+        "label": "VelocitySystem",
+        "kind": 6,
+        "importPath": "src.example",
+        "description": "src.example",
+        "peekOfCode": "class VelocitySystem(System):\n    def update(self, entities, world_info):\n        for entity in entities:\n            if entity.has_component(Position) and entity.has_component(Velocity):\n                entity.get_component(Position).x += entity.get_component(Velocity).dx * world_info.dt\n                entity.get_component(Position).y += entity.get_component(Velocity).dy * world_info.dt\nclass PrintSystem(System):\n    def update(self, entities, world_info):\n        for entity in entities:\n            if entity.has_component(Position):",
+        "detail": "src.example",
+        "documentation": {}
+    },
+    {
+        "label": "PrintSystem",
+        "kind": 6,
+        "importPath": "src.example",
+        "description": "src.example",
+        "peekOfCode": "class PrintSystem(System):\n    def update(self, entities, world_info):\n        for entity in entities:\n            if entity.has_component(Position):\n                pos = entity.get_component(Position)\n                print(pos.x, pos.y)\nworld = World()\nworld.spawn_entity(Velocity(1, 1), Position(0, 0))\nworld.add_system(VelocitySystem())\nworld.add_system(PrintSystem())",
+        "detail": "src.example",
+        "documentation": {}
+    },
+    {
+        "label": "world",
+        "kind": 5,
+        "importPath": "src.example",
+        "description": "src.example",
+        "peekOfCode": "world = World()\nworld.spawn_entity(Velocity(1, 1), Position(0, 0))\nworld.add_system(VelocitySystem())\nworld.add_system(PrintSystem())\nworld.mainloop()",
+        "detail": "src.example",
+        "documentation": {}
+    },
+    {
+        "label": "Velocity",
+        "kind": 6,
+        "importPath": "src.example2",
+        "description": "src.example2",
+        "peekOfCode": "class Velocity(Component):\n    def __init__(self, dx, dy):\n        self.dx = dx\n        self.dy = dy\nclass VelocitySystem(System):\n    def update(self, entities, resources) -> bool:\n        for entity in entities:\n            if entity.has_component(Velocity) and entity.has_component(Transform):\n                velocity = entity.get_component(Velocity)\n                transform = entity.get_component(Transform)",
+        "detail": "src.example2",
+        "documentation": {}
+    },
+    {
+        "label": "VelocitySystem",
+        "kind": 6,
+        "importPath": "src.example2",
+        "description": "src.example2",
+        "peekOfCode": "class VelocitySystem(System):\n    def update(self, entities, resources) -> bool:\n        for entity in entities:\n            if entity.has_component(Velocity) and entity.has_component(Transform):\n                velocity = entity.get_component(Velocity)\n                transform = entity.get_component(Transform)\n                transform.position = (transform.position[0] + velocity.dx, transform.position[1] + velocity.dy)\n                transform.rotation += 1\n                transform.scale = (math.sin(resources.get_resource(Time).time) , math.sin(resources.get_resource(Time).time))\n        return False",
+        "detail": "src.example2",
+        "documentation": {}
+    },
+    {
+        "label": "world",
+        "kind": 5,
+        "importPath": "src.example2",
+        "description": "src.example2",
+        "peekOfCode": "world = World()\nworld.spawn_entity(Velocity(.1, .1), SpriteBundle(pyglet.image.create(100, 100, pyglet.image.CheckerImagePattern())))\nworld.add_plugin(DefaultPlugins())\nworld.add_system(VelocitySystem())\nworld.mainloop()",
+        "detail": "src.example2",
+        "documentation": {}
+    }
+]

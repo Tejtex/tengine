@@ -6,21 +6,6 @@ from tengine.renderer.sprite import Sprite
 from tengine.renderer.window import Window
 
 
-class Renderer(Plugin):
-    def load(self, world: World) -> World:
-        """
-        Load the renderer into the world.
-
-        Args:
-            world (World): The world instance to load the renderer into.
-
-        Returns:
-            World: The modified world instance.
-        """
-        
-        
-        return world
-
 class RenderSystem(System):
     """
     RenderSystem is responsible for rendering entities with the Image component.

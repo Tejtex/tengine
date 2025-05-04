@@ -26,6 +26,21 @@ Tengine's core functionality is organized into several key modules that work tog
 
    core
 
+Other Modules
+=============
+
+Tengine's core doesnt include all the modules. It is designed to be extensible, allowing you to add your own modules or use third-party ones. 
+But here are the modules included in tengine:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Other Modules
+
+   renderer
+   common
+
+
+
 Installation
 ============
 
