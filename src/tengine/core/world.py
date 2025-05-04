@@ -69,6 +69,13 @@ class World:
         self.entities.append(entity)
         return entity.id
     
+    def startup(self):
+        """
+        Initializes the world by calling the startup method of each system.
+        """
+        for system in self.systems:
+            system.startup(self.entities, self.resources)
+    
     def update(self) -> bool:
         """
         Runs all the systems in the world, updating the entities.
@@ -82,5 +89,6 @@ class World:
         """
         Main loop of the world. This method runs indefinitely, updating the world at each iteration
         """
+        self.startup()
         while not self.update():
             pass

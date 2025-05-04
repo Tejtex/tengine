@@ -3,6 +3,7 @@ from tengine.core.plugin import Plugin
 from tengine.common.time import TimeSystem
 from tengine.renderer.window import Window
 from tengine.renderer.renderer import RenderSystem
+from tengine.input.input import Input, InputSystem
 
 
 class DefaultPlugins(Plugin):
@@ -29,3 +30,5 @@ class DefaultPlugins(Plugin):
         world.add_system(TimeSystem())
         world.add_resource(Window(self.width, self.height, self.title))
         world.add_system(RenderSystem())
+        world.add_system(InputSystem())
+        world.add_resource(Input())

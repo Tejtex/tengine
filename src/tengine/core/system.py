@@ -13,5 +13,16 @@ class System:
         Updates the system with the given entities and world information.
         Args:
             entities (list[Entity]): A list of entities to be updated.
+            resources (Resources): The resources available to the system.
+        """
+        pass
+
+    @abstractmethod
+    def startup(self, entities: list[Entity], resources: Resources) -> bool:
+        """
+        Initializes the system with the given entities and world information.
+        Args:
+            entities (list[Entity]): A list of entities to be initialized.
+            resources (Resources): The resources available to the system.
         """
         pass
