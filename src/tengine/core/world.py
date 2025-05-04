@@ -1,11 +1,10 @@
 from tengine.core.component import Bundle, Component
 from tengine.core.entity import Entity
 from tengine.core.plugin import Plugin
+from tengine.core.resource import Resource, Resources
 from tengine.core.system import System
 
 import time
-
-from tengine.core.worldinfo import WorldInfo
 
 
 
@@ -23,6 +22,7 @@ class World:
         Initializes an empty world with no entities or systems.
         """
         self.entities: list[Entity] = []
+        self.resources: Resources = Resources()
         self.systems: list[System] = []
     def add_system(self, system: System):
         """
@@ -41,6 +41,14 @@ class World:
             plugin (Plugin): A plugin to be added to the world.
         """
         self = plugin.load(self)
+    def add_resource(self, resource: Resource):
+        """
+        Adds a resource to the world.
+
+        Args:
+            resource (Resource): A resource to be added to the world.
+        """
+        self.resources.add_resource(resource)
     def spawn_entity(self, *components: Component | Bundle):
         """
         Spawns a new entity with the given components.
@@ -61,23 +69,18 @@ class World:
         self.entities.append(entity)
         return entity.id
     
-    def update(self,world_info: WorldInfo):
+    def update(self) -> bool:
         """
         Runs all the systems in the world, updating the entities.
-        Args:
-            world_info (WorldInfo): Information about the current state of the world.
         """
         for system in self.systems:
-            system.update(self.entities, world_info)
+            if system.update(self.entities, self.resources):
+                return True
+        return False
     
     def mainloop(self):
         """
-        Main loop of the world. This method runs indefinitely, updating the world at each iteration.
-        It calculates the time delta (dt) between each iteration and passes it to the systems.
+        Main loop of the world. This method runs indefinitely, updating the world at each iteration
         """
-        t: float = time.time()
-        while True:
-            dt = time.time() - t
-            t = time.time()
-            world_info = WorldInfo(dt)
-            self.update(world_info)
+        while not self.update():
+            pass

@@ -1,6 +1,4 @@
-from tengine.core.world import World
-
-
+from abc import abstractmethod
 
 
 class Plugin:
@@ -8,7 +6,8 @@ class Plugin:
     Base class for plugins that can be loaded into the world.
     Plugins can modify the world by adding systems, components, or other functionality.
     """
-    def load(self, world: World) -> World:
+    @abstractmethod
+    def load(self, world: 'World') -> 'World':
         """
         Load the plugin into the world.
 

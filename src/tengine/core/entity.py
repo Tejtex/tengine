@@ -1,6 +1,10 @@
-from typing import Type
-from tengine.core.component import Component
+from typing import Type, TypeVar
+from tengine.core.component import Bundle, Component
 
+
+T = TypeVar("T", bound="Component")
+
+U = TypeVar("U", bound="Bundle")
 
 class Entity:
     """
@@ -27,7 +31,7 @@ class Entity:
             bool: True if the entity has the component, False otherwise.
         """
         return any(isinstance(component, type) for component in self.components)
-    def get_component(self, type: Type[Component]) -> Component | None:
+    def get_component(self, type: Type[T]) -> T | None:
         """
         Retrieves the component of the specified type from the entity.
         Args:

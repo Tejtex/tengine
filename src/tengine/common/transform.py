@@ -2,6 +2,9 @@ from tengine.core.component import Component
 
 
 class Transform(Component):
+    """
+    The Transform component represents the position, rotation, and scale of an entity in the world.
+    """
     def __init__(self, position: tuple[float, float] = (0, 0), rotation: float = 0.0, scale: tuple[float, float] = (1.0, 1.0)):
         """
         Initializes a Transform component with position, rotation, and scale.
